@@ -107,7 +107,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         
         if gameIsRunning == 0 {
             
-            gameBoardPlanes[0].setGameBoardPlane(tapPoint: tapPoint, sceneView: self.sceneView )
+            gameBoardPlanes[0].setGameBoardPlane(tapPoint: tapPoint, gameWorld: self )
             
             
        // let hitTestResults =  self.sceneView.hitTest(tapPoint, types: .existingPlaneUsingExtent)

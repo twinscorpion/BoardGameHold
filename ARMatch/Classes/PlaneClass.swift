@@ -135,15 +135,20 @@ class NewPlane: SCNNode {
         
         node.addChildNode(newPlane)
         gameBoardPlanes = [newPlane]
-        print("origenal plane mark \(anchor)")
+        print("origenal plane mark \(anchor.identifier)")
         
     }
     
     
-    func setGameBoardPlane(tapPoint: CGPoint, sceneView: ARSCNView ) {
-        let hitTestResults =  sceneView.hitTest(tapPoint, types: .existingPlaneUsingExtent)
+    func setGameBoardPlane(tapPoint: CGPoint, gameWorld: ViewController ) {
+        let hitTestResults =  gameWorld.sceneView.hitTest(tapPoint, types: .existingPlaneUsingExtent)
         let hitObject = hitTestResults.first
-        print("the one I touched mark \(hitObject?.anchor)")
+        print("the one I touched mark \(hitObject?.anchor?.identifier)")
+        
+        if gameBoardPlanes[0].anchor.identifier == hitObject?.anchor?.identifier {
+            print("we have a match")
+            Utility.toggleARPlanesDetection(gameWorld: gameWorld, planesDetection: false)
+        }
                 
         
     }
