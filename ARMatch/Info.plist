@@ -30,6 +30,7 @@
 	<array>
 		<string>armv7</string>
 		<string>arkit</string>
+		<string>gamekit</string>
 	</array>
 	<key>UIStatusBarHidden</key>
 	<true/>
