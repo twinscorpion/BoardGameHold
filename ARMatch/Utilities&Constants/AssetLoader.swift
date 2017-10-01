@@ -33,10 +33,10 @@ struct Assets {
         
     }
     
-    /* static func materialsImage(image: UIImage) -> SCNMaterial {
+    /*static func materialsImage(image: UIImage) -> SCNMaterial {
      
-     } */
-    
+     }
+     */
 }
 
 

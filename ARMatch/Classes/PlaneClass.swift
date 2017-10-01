@@ -75,6 +75,7 @@ class NewPlane: SCNNode {
         
         self.planeGeometry.materials = [transparentMaterial, transparentMaterial, transparentMaterial, transparentMaterial, transparentMaterial, transparentMaterial]
         sizeOfPlane()
+        //this will have the hide and give us the size to work with. 
     }
     
     func setAnimation() {
@@ -141,6 +142,8 @@ class NewPlane: SCNNode {
     
     
     func setGameBoardPlane(tapPoint: CGPoint, gameWorld: ViewController ) {
+        //func to set the correct gamebaord to play the game. 
+        
         let hitTestResults =  gameWorld.sceneView.hitTest(tapPoint, types: .existingPlaneUsingExtent)
         let hitObject = hitTestResults.first
         print("the one I touched mark \(hitObject?.anchor?.identifier)")

@@ -19,6 +19,18 @@
 		9FC5EF231F7E9BFE002BB6A7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC5EF221F7E9BFE002BB6A7 /* Constants.swift */; };
 		9FC5EF281F7E9E02002BB6A7 /* AssetLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC5EF271F7E9E02002BB6A7 /* AssetLoader.swift */; };
 		9FC5EF2A1F7EAF34002BB6A7 /* UtilitiesClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC5EF291F7EAF34002BB6A7 /* UtilitiesClass.swift */; };
+		9FC5EF2D1F8193DC002BB6A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC5EF0B1F7E8833002BB6A7 /* ViewController.swift */; };
+		9FC5EF2E1F8193DC002BB6A7 /* PlaneClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC5EF201F7E9BB0002BB6A7 /* PlaneClass.swift */; };
+		9FC5EF2F1F8193DC002BB6A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC5EF071F7E8833002BB6A7 /* AppDelegate.swift */; };
+		9FC5EF301F8193DC002BB6A7 /* AssetLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC5EF271F7E9E02002BB6A7 /* AssetLoader.swift */; };
+		9FC5EF311F8193DC002BB6A7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC5EF221F7E9BFE002BB6A7 /* Constants.swift */; };
+		9FC5EF321F8193DC002BB6A7 /* UtilitiesClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC5EF291F7EAF34002BB6A7 /* UtilitiesClass.swift */; };
+		9FC5EF341F8193DC002BB6A7 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FC5EF1C1F7E8846002BB6A7 /* StoreKit.framework */; };
+		9FC5EF351F8193DC002BB6A7 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FC5EF1E1F7E884F002BB6A7 /* GameKit.framework */; };
+		9FC5EF371F8193DC002BB6A7 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FC5EF091F7E8833002BB6A7 /* art.scnassets */; };
+		9FC5EF381F8193DC002BB6A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FC5EF121F7E8833002BB6A7 /* LaunchScreen.storyboard */; };
+		9FC5EF391F8193DC002BB6A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FC5EF101F7E8833002BB6A7 /* Assets.xcassets */; };
+		9FC5EF3A1F8193DC002BB6A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FC5EF0D1F7E8833002BB6A7 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +48,8 @@
 		9FC5EF221F7E9BFE002BB6A7 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		9FC5EF271F7E9E02002BB6A7 /* AssetLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetLoader.swift; sourceTree = "<group>"; };
 		9FC5EF291F7EAF34002BB6A7 /* UtilitiesClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilitiesClass.swift; sourceTree = "<group>"; };
+		9FC5EF3E1F8193DC002BB6A7 /* ARMatch Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ARMatch Dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FC5EF3F1F8193DC002BB6A7 /* ARMatch copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ARMatch copy-Info.plist"; path = "/Users/french/Library/Autosave Information/ARMatch/ARMatch copy-Info.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +62,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9FC5EF331F8193DC002BB6A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FC5EF341F8193DC002BB6A7 /* StoreKit.framework in Frameworks */,
+				9FC5EF351F8193DC002BB6A7 /* GameKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -57,6 +80,7 @@
 				9FC5EF061F7E8833002BB6A7 /* ARMatch */,
 				9FC5EF051F7E8833002BB6A7 /* Products */,
 				9FC5EF1B1F7E8846002BB6A7 /* Frameworks */,
+				9FC5EF3F1F8193DC002BB6A7 /* ARMatch copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				9FC5EF041F7E8833002BB6A7 /* ARMatch.app */,
+				9FC5EF3E1F8193DC002BB6A7 /* ARMatch Dev.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -131,6 +156,23 @@
 			productReference = 9FC5EF041F7E8833002BB6A7 /* ARMatch.app */;
 			productType = "com.apple.product-type.application";
 		};
+		9FC5EF2B1F8193DC002BB6A7 /* ARMatch Dev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FC5EF3B1F8193DC002BB6A7 /* Build configuration list for PBXNativeTarget "ARMatch Dev" */;
+			buildPhases = (
+				9FC5EF2C1F8193DC002BB6A7 /* Sources */,
+				9FC5EF331F8193DC002BB6A7 /* Frameworks */,
+				9FC5EF361F8193DC002BB6A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ARMatch Dev";
+			productName = ARMatch;
+			productReference = 9FC5EF3E1F8193DC002BB6A7 /* ARMatch Dev.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -153,6 +195,9 @@
 							};
 						};
 					};
+					9FC5EF2B1F8193DC002BB6A7 = {
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 9FC5EEFF1F7E8833002BB6A7 /* Build configuration list for PBXProject "ARMatch" */;
@@ -169,6 +214,7 @@
 			projectRoot = "";
 			targets = (
 				9FC5EF031F7E8833002BB6A7 /* ARMatch */,
+				9FC5EF2B1F8193DC002BB6A7 /* ARMatch Dev */,
 			);
 		};
 /* End PBXProject section */
@@ -185,6 +231,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9FC5EF361F8193DC002BB6A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FC5EF371F8193DC002BB6A7 /* art.scnassets in Resources */,
+				9FC5EF381F8193DC002BB6A7 /* LaunchScreen.storyboard in Resources */,
+				9FC5EF391F8193DC002BB6A7 /* Assets.xcassets in Resources */,
+				9FC5EF3A1F8193DC002BB6A7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -198,6 +255,19 @@
 				9FC5EF281F7E9E02002BB6A7 /* AssetLoader.swift in Sources */,
 				9FC5EF231F7E9BFE002BB6A7 /* Constants.swift in Sources */,
 				9FC5EF2A1F7EAF34002BB6A7 /* UtilitiesClass.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FC5EF2C1F8193DC002BB6A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FC5EF2D1F8193DC002BB6A7 /* ViewController.swift in Sources */,
+				9FC5EF2E1F8193DC002BB6A7 /* PlaneClass.swift in Sources */,
+				9FC5EF2F1F8193DC002BB6A7 /* AppDelegate.swift in Sources */,
+				9FC5EF301F8193DC002BB6A7 /* AssetLoader.swift in Sources */,
+				9FC5EF311F8193DC002BB6A7 /* Constants.swift in Sources */,
+				9FC5EF321F8193DC002BB6A7 /* UtilitiesClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +430,36 @@
 			};
 			name = Release;
 		};
+		9FC5EF3C1F8193DC002BB6A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7T7EM2BX82;
+				INFOPLIST_FILE = "ARMatch copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.twinscorpion.ARMatch-Dev";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9FC5EF3D1F8193DC002BB6A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7T7EM2BX82;
+				INFOPLIST_FILE = "ARMatch copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.twinscorpion.ARMatch-Dev";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -377,6 +477,15 @@
 			buildConfigurations = (
 				9FC5EF191F7E8833002BB6A7 /* Debug */,
 				9FC5EF1A1F7E8833002BB6A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FC5EF3B1F8193DC002BB6A7 /* Build configuration list for PBXNativeTarget "ARMatch Dev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FC5EF3C1F8193DC002BB6A7 /* Debug */,
+				9FC5EF3D1F8193DC002BB6A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
